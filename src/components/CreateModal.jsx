@@ -9,15 +9,9 @@ const CreateModal = (props) => {
       <form onSubmit={handleSubmit}>
         <p>Create a Job Posting</p>
         <div>
-          {/* <label htmlFor="title">
-            Job Title<span>: </span>
-          </label> */}
           <input id="title" name="title" value={title} type="text" placeholder="Job Title" onChange={e => handleChange(e)}></input>
         </div>
         <div>
-          {/* <label htmlFor="company">
-            Company<span>: </span>
-          </label> */}
           <input
             id="company"
             name="company"
@@ -29,9 +23,6 @@ const CreateModal = (props) => {
           />
         </div>
         <div>
-          {/* <label htmlFor="location">
-            Location<span>:</span>
-          </label> */}
           <input
             id="location"
             type="text"
@@ -43,7 +34,6 @@ const CreateModal = (props) => {
           />
         </div>
         <div>
-          {/* <label htmlFor="postURL">Posting URL (optional) : </label> */}
           <input
             id="url"
             name="url"
